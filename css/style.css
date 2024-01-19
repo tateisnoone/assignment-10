@@ -1,0 +1,242 @@
+.container {
+  max-width: 1146px;
+  width: 95%;
+  margin: 0 auto;
+}
+.headerdiv {
+  display: flex;
+  flex-direction: column;
+  width: 371px;
+  height: 253px;
+  justify-content: center;
+}
+.headerdiv h6 {
+  color: #5863e3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.headerdiv h1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sec-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.leftside {
+  height: 298px;
+  width: 67%;
+  margin-bottom: 51px;
+}
+textarea {
+  resize: none;
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  padding: 20px;
+}
+.rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 298px;
+  width: 31.5%;
+}
+
+input[type="text"] {
+  display: flex;
+  justify-content: center;
+  height: 59px;
+  width: 100%;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  padding: 20px;
+}
+::placeholder {
+  color: #99999a;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+input[type="submit"] {
+  height: 59px;
+  width: 100%;
+  background-color: #5968f4;
+  color: #fbfbff;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sec-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 74px;
+}
+.note {
+  display: flex;
+  flex-direction: column;
+  flex-direction: center;
+  align-items: center;
+  gap: 10px;
+  width: 20%;
+}
+.email,
+.phone,
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 68px;
+  border-radius: 100%;
+  background-color: #5968f4;
+}
+i {
+  color: #344188;
+}
+.note h5 {
+  color: #4e4d54;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.note h6 {
+  color: #99999a;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+a {
+  color: inherit;
+}
+
+.sec-3 {
+  display: flex;
+  flex-direction: column;
+  width: 548px;
+  height: 253px;
+  justify-content: center;
+}
+.sec-3 h6 {
+  color: #5863e3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sec-3 h1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.photos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 39px;
+}
+footer {
+  background-color: #000;
+  height: 372px;
+  padding-top: 63px;
+}
+.footerdiv {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 206px;
+  width: 298px;
+}
+.footerimgs {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.left h4 {
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.left h5 {
+  color: #99999a;
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  height: 160px;
+}
+.footernote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 215px;
+}
+.footernote h3 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footernote li {
+  color: #5863e3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.f-div {
+  display: flex;
+  width: 250px;
+  align-items: center;
+}
+.f-div p {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footericon {
+  margin-right: 14px;
+}
