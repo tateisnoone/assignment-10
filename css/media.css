@@ -248,6 +248,19 @@
   .headerdiv {
     height: 180px;
   }
+  .leftside {
+    height: 200px;
+  }
+  .rightside {
+    height: 200px;
+  }
+  input[type="text"] {
+    height: 39px;
+  }
+  input[type="submit"] {
+    height: 39px;
+    font-size: 12px;
+  }
 }
 @media (max-width: 375px) {
   .left h4 {
