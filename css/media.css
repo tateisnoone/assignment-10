@@ -25,6 +25,8 @@
   }
   .right {
     width: 65%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
   .footernote {
@@ -170,6 +172,18 @@
 }
 
 @media (max-width: 525px) {
+  ::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  ::-moz-placeholder {
+    font-size: 10px;
+  }
+  :-ms-input-placeholder {
+    font-size: 10px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 10px;
+  }
   ::placeholder {
     font-size: 10px;
   }
@@ -219,7 +233,12 @@
 }
 @media (max-width: 480px) {
   .f-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 15px;
     height: 35px;
@@ -316,6 +335,18 @@
   }
   .footernote1 {
     height: 120px;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 8px;
+  }
+  ::-moz-placeholder {
+    font-size: 8px;
+  }
+  :-ms-input-placeholder {
+    font-size: 8px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 8px;
   }
   ::placeholder {
     font-size: 8px;
