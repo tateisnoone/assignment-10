@@ -92,6 +92,7 @@ input[type="submit"] {
   align-items: center;
   gap: 10px;
   width: 20%;
+  text-align: center;
 }
 .email,
 .phone,

@@ -1,0 +1,319 @@
+@media (max-width: 1145px) {
+  .photos img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .left {
+    width: 20%;
+  }
+  .left h4 {
+    font-size: 20px;
+  }
+  .left h5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 915px) {
+  .left h4 {
+    font-size: 18px;
+  }
+  .left h5 {
+    font-size: 14px;
+  }
+  .right {
+    width: 65%;
+    justify-content: space-between;
+  }
+  .footernote {
+    width: 35%;
+  }
+  .f-div {
+    width: 70%;
+  }
+  .footernote h3 {
+    font-size: 18px;
+  }
+  .footernote li {
+    font-size: 16px;
+  }
+  .f-div p {
+    font-size: 12px;
+  }
+  .footericon {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  .note h5 {
+    font-size: 18px;
+  }
+  .note h6 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 825px) {
+  .left h4 {
+    font-size: 16px;
+  }
+  .left h5 {
+    font-size: 12px;
+  }
+  .footernote h3 {
+    font-size: 18px;
+  }
+  .footernote li {
+    font-size: 16px;
+  }
+  .footericon {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  .f-div {
+    width: 85%;
+  }
+  .headerdiv h6 {
+    font-size: 14px;
+  }
+  .headerdiv h1 {
+    font-size: 35px;
+  }
+  .sec-3 h6 {
+    font-size: 14px;
+  }
+  .sec-3 h1 {
+    font-size: 35px;
+  }
+  .left {
+    width: 20%;
+  }
+  .footerimgs {
+    width: 80%;
+  }
+  .footerimgs img {
+    width: 30%;
+  }
+  .right {
+    width: 70%;
+  }
+  .f-div {
+    width: 95%;
+  }
+
+  .headerdiv {
+    width: 58%;
+  }
+  .sec-3 {
+    width: 70%;
+  }
+  .note {
+    width: 30%;
+  }
+  .sec-2 {
+    margin-bottom: 0;
+  }
+  .sec-3 {
+    height: 200px;
+  }
+}
+@media (max-width: 610px) {
+  .headerdiv {
+    width: 58%;
+  }
+  .sec-3 {
+    width: 70%;
+  }
+  .headerdiv h6 {
+    font-size: 12px;
+  }
+  .headerdiv h1 {
+    font-size: 30px;
+  }
+  .sec-3 h6 {
+    font-size: 12px;
+  }
+  .sec-3 h1 {
+    font-size: 30px;
+  }
+  .note {
+    width: 25%;
+  }
+  .email,
+  .phone,
+  .location {
+    width: 50px;
+    height: 50px;
+  }
+  .immg {
+    font-size: 20px;
+  }
+  .left {
+    width: 25%;
+  }
+  .note h5 {
+    font-size: 16px;
+  }
+  .note h6 {
+    font-size: 10px;
+  }
+  .sec-2 {
+    margin-bottom: 0;
+  }
+  .sec-3 {
+    height: 180px;
+  }
+  input[type="text"] {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 525px) {
+  ::placeholder {
+    font-size: 10px;
+  }
+  .note h5 {
+    font-size: 14px;
+  }
+  .note h6 {
+    font-size: 8px;
+  }
+  .headerdiv h6 {
+    font-size: 10px;
+  }
+  .headerdiv h1 {
+    font-size: 25px;
+  }
+  .sec-3 h6 {
+    font-size: 10px;
+  }
+  .sec-3 h1 {
+    font-size: 25px;
+  }
+  .left h4 {
+    font-size: 14px;
+  }
+  .left h5 {
+    font-size: 10px;
+  }
+  .footernote h3 {
+    font-size: 15px;
+  }
+  .footernote li {
+    font-size: 14px;
+  }
+  .footericon {
+    font-size: 12px;
+    margin-right: 4px;
+  }
+  .left {
+    height: 160px;
+  }
+  footer {
+    height: 300px;
+  }
+  .f-div p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .f-div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 35px;
+    text-align: center;
+  }
+  .footericon {
+    font-size: 15px;
+    margin-right: 0;
+  }
+  .left h4 {
+    font-size: 12px;
+  }
+  .left h5 {
+    font-size: 8px;
+  }
+  .footernote h3 {
+    font-size: 12px;
+  }
+  .footernote li {
+    font-size: 12px;
+  }
+  .footernote {
+    height: 145px;
+    text-align: center;
+  }
+  .headerdiv {
+    height: 180px;
+  }
+}
+@media (max-width: 375px) {
+  .left h4 {
+    font-size: 10px;
+  }
+  .left h5 {
+    font-size: 8px;
+  }
+  .footernote {
+    width: 28%;
+  }
+  .footernote h3 {
+    font-size: 10px;
+  }
+  .footernote li {
+    font-size: 10px;
+  }
+  .f-div p {
+    font-size: 8px;
+  }
+  .footericon {
+    font-size: 12px;
+  }
+  .f-div {
+    gap: 10px;
+  }
+  .email,
+  .phone,
+  .location {
+    width: 30px;
+    height: 30px;
+  }
+  .immg {
+    font-size: 15px;
+  }
+  .note h5 {
+    font-size: 12px;
+  }
+  .note h6 {
+    font-size: 6px;
+  }
+  .headerdiv h6 {
+    font-size: 10px;
+  }
+  .headerdiv h1 {
+    font-size: 18px;
+  }
+  .sec-3 h6 {
+    font-size: 10px;
+  }
+  .sec-3 h1 {
+    font-size: 18px;
+  }
+  .footernote1 {
+    height: 120px;
+  }
+  ::placeholder {
+    font-size: 8px;
+  }
+  input[type="text"] {
+    height: 49px;
+    width: 100%;
+    font-size: 8px;
+    padding: 10px;
+  }
+  textarea {
+    font-size: 10px;
+  }
+}
